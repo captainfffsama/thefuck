@@ -1,6 +1,6 @@
 import sys
 from .conf import settings
-from .types import Rule
+from .typess import Rule
 from .system import Path
 from . import logs
 

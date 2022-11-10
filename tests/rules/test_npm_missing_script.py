@@ -1,6 +1,6 @@
 import pytest
 from io import BytesIO
-from thefuck.types import Command
+from thefuck.typess import Command
 from thefuck.rules.npm_missing_script import match, get_new_command
 
 output = '''

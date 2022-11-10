@@ -1,6 +1,6 @@
 import pytest
 from thefuck.rules.git_branch_exists import match, get_new_command
-from thefuck.types import Command
+from thefuck.typess import Command
 
 
 @pytest.fixture

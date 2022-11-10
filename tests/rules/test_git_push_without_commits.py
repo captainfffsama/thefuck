@@ -1,4 +1,4 @@
-from thefuck.types import Command
+from thefuck.typess import Command
 from thefuck.rules.git_push_without_commits import get_new_command, match
 
 

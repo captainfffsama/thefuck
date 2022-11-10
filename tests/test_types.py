@@ -8,7 +8,7 @@ from tests.utils import CorrectedCommand, Rule
 from thefuck import const
 from thefuck.exceptions import EmptyCommand
 from thefuck.system import Path
-from thefuck.types import Command
+from thefuck.typess import Command
 
 
 class TestCorrectedCommand(object):

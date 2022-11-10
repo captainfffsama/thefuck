@@ -3,7 +3,7 @@ from io import BytesIO
 import pytest
 
 from thefuck.rules.yum_invalid_operation import match, get_new_command, _get_operations
-from thefuck.types import Command
+from thefuck.typess import Command
 
 yum_help_text = '''Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
 Usage: yum [options] COMMAND

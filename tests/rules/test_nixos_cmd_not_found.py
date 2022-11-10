@@ -1,6 +1,6 @@
 import pytest
 from thefuck.rules.nixos_cmd_not_found import match, get_new_command
-from thefuck.types import Command
+from thefuck.typess import Command
 
 
 @pytest.mark.parametrize('command', [

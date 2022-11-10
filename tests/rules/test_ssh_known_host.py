@@ -2,7 +2,7 @@ import os
 import pytest
 from thefuck.rules.ssh_known_hosts import match, get_new_command,\
     side_effect
-from thefuck.types import Command
+from thefuck.typess import Command
 
 
 @pytest.fixture

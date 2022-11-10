@@ -2,7 +2,7 @@ from pprint import pformat
 import os
 import sys
 from difflib import SequenceMatcher
-from .. import logs, types, const
+from .. import logs, const, typess
 from ..conf import settings
 from ..corrector import get_corrected_commands
 from ..exceptions import EmptyCommand
@@ -34,7 +34,7 @@ def fix_command(known_args):
         raw_command = _get_raw_command(known_args)
 
         try:
-            command = types.Command.from_raw_script(raw_command)
+            command = typess.Command.from_raw_script(raw_command)
         except EmptyCommand:
             logs.debug('Empty command, nothing to do')
             return

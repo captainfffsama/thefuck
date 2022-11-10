@@ -1,6 +1,6 @@
 import pytest
 from thefuck.rules.yarn_help import match, get_new_command
-from thefuck.types import Command
+from thefuck.typess import Command
 from thefuck.system import open_command
 
 

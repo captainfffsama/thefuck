@@ -1,6 +1,6 @@
 import pytest
 
-from thefuck.types import Command
+from thefuck.typess import Command
 from thefuck.rules.mercurial import (
     extract_possibilities, match, get_new_command
 )

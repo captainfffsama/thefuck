@@ -1,8 +1,8 @@
-from thefuck import types
+from thefuck import typess
 from thefuck.const import DEFAULT_PRIORITY
 
 
-class Rule(types.Rule):
+class Rule(typess.Rule):
     def __init__(self, name='', match=lambda *_: True,
                  get_new_command=lambda *_: '',
                  enabled_by_default=True,
@@ -14,7 +14,7 @@ class Rule(types.Rule):
                                    priority, requires_output)
 
 
-class CorrectedCommand(types.CorrectedCommand):
+class CorrectedCommand(typess.CorrectedCommand):
     def __init__(self, script='', side_effect=None, priority=DEFAULT_PRIORITY):
         super(CorrectedCommand, self).__init__(
             script, side_effect, priority)

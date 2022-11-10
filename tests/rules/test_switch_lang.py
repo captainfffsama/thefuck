@@ -3,7 +3,7 @@
 import pytest
 
 from thefuck.rules import switch_lang
-from thefuck.types import Command
+from thefuck.typess import Command
 
 
 @pytest.mark.parametrize('command', [

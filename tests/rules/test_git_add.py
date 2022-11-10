@@ -1,6 +1,6 @@
 import pytest
 from thefuck.rules.git_add import match, get_new_command
-from thefuck.types import Command
+from thefuck.typess import Command
 
 
 @pytest.fixture(autouse=True)

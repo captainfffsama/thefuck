@@ -3,6 +3,7 @@ import msvcrt
 import win_unicode_console
 from .. import const
 
+os.system("chcp 65001")
 
 def init_output():
     import colorama

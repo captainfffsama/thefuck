@@ -4,7 +4,7 @@ import pytest
 from tests.utils import Rule, CorrectedCommand
 from thefuck import corrector, const
 from thefuck.system import Path
-from thefuck.types import Command
+from thefuck.typess import Command
 from thefuck.corrector import get_corrected_commands, organize_commands
 
 

@@ -1,6 +1,6 @@
 import pytest
 from thefuck.rules.git_clone_missing import match, get_new_command
-from thefuck.types import Command
+from thefuck.typess import Command
 
 valid_urls = [
     'https://github.com/nvbn/thefuck.git',

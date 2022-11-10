@@ -1,6 +1,6 @@
 from io import BytesIO
 import pytest
-from thefuck.types import Command
+from thefuck.typess import Command
 from thefuck.rules.dnf_no_such_command import match, get_new_command, _get_operations
 
 

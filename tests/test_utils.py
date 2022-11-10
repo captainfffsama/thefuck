@@ -7,7 +7,7 @@ from thefuck.utils import default_settings, \
     memoize, get_closest, get_all_executables, replace_argument, \
     get_all_matched_commands, is_app, for_app, cache, \
     get_valid_history_without_current, _cache, get_close_matches
-from thefuck.types import Command
+from thefuck.typess import Command
 
 
 @pytest.mark.parametrize('override, old, new', [

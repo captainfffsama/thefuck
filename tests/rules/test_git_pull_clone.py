@@ -1,6 +1,6 @@
 import pytest
 from thefuck.rules.git_pull_clone import match, get_new_command
-from thefuck.types import Command
+from thefuck.typess import Command
 
 
 git_err = '''

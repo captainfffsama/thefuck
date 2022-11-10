@@ -2,7 +2,7 @@
 
 from io import BytesIO
 import pytest
-from thefuck.types import Command
+from thefuck.typess import Command
 from thefuck.rules.grunt_task_not_found import match, get_new_command
 
 output = '''

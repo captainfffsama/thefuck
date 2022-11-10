@@ -1,5 +1,5 @@
 import pytest
-from thefuck.types import Command
+from thefuck.typess import Command
 from thefuck.rules.brew_update_formula import get_new_command, match
 
 

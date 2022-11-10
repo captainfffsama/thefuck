@@ -3,7 +3,7 @@
 import pytest
 from itertools import islice
 from thefuck import ui
-from thefuck.types import CorrectedCommand
+from thefuck.typess import CorrectedCommand
 from thefuck import const
 
 
